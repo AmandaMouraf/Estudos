@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    País onde mora: <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar"
+    onclick="mostrar()">
+    <div id="res">
+    </div>
+    <script>
+        function mostrar() {
+            var ps = document.getElementById('pais')
+            var res = document.getElementById('res')
+            if(ps = 'Brasil') {
+                res.innerHTML += 'Você é brasileiro!'
+            } else {
+                res.innerHTML += 'Você é estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
