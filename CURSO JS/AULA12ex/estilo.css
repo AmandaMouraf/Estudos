@@ -17,6 +17,11 @@ section {
     box-shadow: rgba(0, 0, 0, 0.61) 5px 5px 10px;
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+}
+
 footer {
     color: darkblue;
     text-align: center;
